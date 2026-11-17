@@ -1,0 +1,435 @@
+{
+  "users": [
+    {
+      "id": "usr_ananya",
+      "fullName": "Ananya Sharma",
+      "email": "ananya.sharma@reva.edu.in",
+      "studentId": "R23CS042",
+      "department": "Computer Science & Engineering",
+      "yearOfStudy": "3rd Year",
+      "role": "student",
+      "verified": true,
+      "accountStatus": "Active",
+      "avatarUrl": "",
+      "bio": "CSE junior interested in embedded systems, competitive programming, and sustainable campus sharing.",
+      "preferredPickup": "Science Block Atrium",
+      "profileCompleted": true,
+      "passwordHash": "270ae28d1501fcf16ac33ffab9489ae0:0930d513016e83ac006757c22ec28a88d10fcb5f83cb21bc96851adcd00d54e78c2b1b70e39c8ec4c066ccead5a517ffc18469c8c8e5f49e981b1ac6feacf282",
+      "verificationCode": null,
+      "resetCode": null,
+      "createdAt": "2026-10-03T13:20:06.842Z"
+    },
+    {
+      "id": "usr_rohan",
+      "fullName": "Rohan Kulkarni",
+      "email": "rohan.kulkarni@reva.edu.in",
+      "studentId": "R22EC118",
+      "department": "Electronics & Communication",
+      "yearOfStudy": "4th Year",
+      "role": "student",
+      "verified": true,
+      "accountStatus": "Active",
+      "avatarUrl": "",
+      "bio": "Final-year ECE student passing down lab kits, textbooks, and hardware tools before graduation.",
+      "preferredPickup": "CV Raman Block Lobby",
+      "profileCompleted": true,
+      "passwordHash": "270ae28d1501fcf16ac33ffab9489ae0:0930d513016e83ac006757c22ec28a88d10fcb5f83cb21bc96851adcd00d54e78c2b1b70e39c8ec4c066ccead5a517ffc18469c8c8e5f49e981b1ac6feacf282",
+      "verificationCode": null,
+      "resetCode": null,
+      "createdAt": "2026-09-16T13:20:06.842Z"
+    },
+    {
+      "id": "usr_meera",
+      "fullName": "Meera Nair",
+      "email": "meera.nair@reva.edu.in",
+      "studentId": "R24AR019",
+      "department": "Architecture",
+      "yearOfStudy": "2nd Year",
+      "role": "student",
+      "verified": true,
+      "accountStatus": "Active",
+      "avatarUrl": "",
+      "bio": "Architecture sophomore swapping drafting tools, sketchbooks, and hostel essentials.",
+      "preferredPickup": "Design Studio Courtyard",
+      "profileCompleted": true,
+      "passwordHash": "270ae28d1501fcf16ac33ffab9489ae0:0930d513016e83ac006757c22ec28a88d10fcb5f83cb21bc96851adcd00d54e78c2b1b70e39c8ec4c066ccead5a517ffc18469c8c8e5f49e981b1ac6feacf282",
+      "verificationCode": null,
+      "resetCode": null,
+      "createdAt": "2026-10-18T13:20:06.842Z"
+    },
+    {
+      "id": "usr_karthik",
+      "fullName": "Karthik Reddy",
+      "email": "karthik.reddy@reva.edu.in",
+      "studentId": "R23ME075",
+      "department": "Mechanical Engineering",
+      "yearOfStudy": "3rd Year",
+      "role": "student",
+      "verified": true,
+      "accountStatus": "Active",
+      "avatarUrl": "",
+      "bio": "Mechanical undergrad and badminton club captain. Happy to lend sports gear and calculators.",
+      "preferredPickup": "Sports Complex Entrance",
+      "profileCompleted": true,
+      "passwordHash": "270ae28d1501fcf16ac33ffab9489ae0:0930d513016e83ac006757c22ec28a88d10fcb5f83cb21bc96851adcd00d54e78c2b1b70e39c8ec4c066ccead5a517ffc18469c8c8e5f49e981b1ac6feacf282",
+      "verificationCode": null,
+      "resetCode": null,
+      "createdAt": "2026-10-23T13:20:06.842Z"
+    },
+    {
+      "id": "usr_admin",
+      "fullName": "Dr. Priya Deshmukh",
+      "email": "admin@reva.edu.in",
+      "studentId": "ADMIN-001",
+      "department": "Campus Student Affairs",
+      "yearOfStudy": "Administration",
+      "role": "admin",
+      "verified": true,
+      "accountStatus": "Active",
+      "avatarUrl": "",
+      "bio": "REVA SWAP Campus Community Administrator overseeing trust, safety, and dispute resolution.",
+      "preferredPickup": "Admin Block Room 104",
+      "profileCompleted": true,
+      "passwordHash": "61b4bbac300279c560daaeb16225fe5c:9060e5941fd7e3beeb09c424324f1a8d0f02d1b8577dae2e54c86a5aad2a3a658c15360236545938003158569e496c03b000ef8b8911e2cac73e8ef77f482b96",
+      "verificationCode": null,
+      "resetCode": null,
+      "createdAt": "2026-08-19T13:20:06.842Z"
+    }
+  ],
+  "listings": [
+    {
+      "id": "itm_os_books",
+      "ownerId": "usr_rohan",
+      "title": "Operating Systems & Computer Architecture Textbook Bundle",
+      "category": "Books & Notes",
+      "description": "Clean hardcover editions of Tanenbaum Modern Operating Systems (5th Ed.) and Hennessy & Patterson Computer Architecture (6th Ed.), plus handwritten semester lecture notes. Zero torn pages.",
+      "images": [
+        "/src/assets/images/item_textbooks_bundle_1794921132809.jpg",
+        "/src/assets/images/item_drafting_stationery_1794921135352.jpg"
+      ],
+      "condition": "Like New",
+      "exchangeType": "Borrow",
+      "price": null,
+      "availability": "Available",
+      "borrowingDuration": "1 Semester (Up to 16 weeks)",
+      "pickupLocation": "Central Library Steps",
+      "createdAt": "2026-11-09T13:20:06.842Z",
+      "updatedAt": "2026-11-09T13:20:06.842Z"
+    },
+    {
+      "id": "itm_macbook_hub",
+      "ownerId": "usr_ananya",
+      "title": "Aluminum USB-C Multiport Hub & Studio Wireless Headphones",
+      "category": "Electronics",
+      "description": "Reliable 7-in-1 USB-C hub with HDMI 4K output and SD reader paired with over-ear ANC wireless headphones for hackathon weekends or presentation prep.",
+      "images": [
+        "/src/assets/images/item_laptop_electronics_1794921133058.jpg"
+      ],
+      "condition": "Like New",
+      "exchangeType": "Lend",
+      "price": null,
+      "availability": "Available",
+      "borrowingDuration": "7 Days",
+      "pickupLocation": "Science Block Atrium",
+      "createdAt": "2026-11-11T13:20:06.842Z",
+      "updatedAt": "2026-11-11T13:20:06.842Z"
+    },
+    {
+      "id": "itm_arduino_kit",
+      "ownerId": "usr_rohan",
+      "title": "Complete Embedded Systems & Multimeter Lab Kit",
+      "category": "Lab Equipment",
+      "description": "Includes calibrated digital multimeter, Arduino Uno R3, 830-point solderless breadboard, resistor pack, and color-coded jumper wires in a hard compartment tray. Ideal for 3rd & 4th semester labs.",
+      "images": [
+        "/src/assets/images/item_lab_equipment_1794921135375.jpg"
+      ],
+      "condition": "Good",
+      "exchangeType": "Sell",
+      "price": 1250,
+      "availability": "Available",
+      "borrowingDuration": "",
+      "pickupLocation": "CV Raman Block Lobby",
+      "createdAt": "2026-11-12T13:20:06.842Z",
+      "updatedAt": "2026-11-12T13:20:06.842Z"
+    },
+    {
+      "id": "itm_badminton_set",
+      "ownerId": "usr_karthik",
+      "title": "Carbon-Fiber Badminton Rackets (Pair) + Shuttlecock Tube & Bag",
+      "category": "Sports Equipment",
+      "description": "Two lightweight carbon-fiber rackets freshly strung at 24 lbs, a half-full feather shuttlecock tube, and a navy canvas sports duffle. Great for evening matches at the campus indoor court.",
+      "images": [
+        "/src/assets/images/item_sports_badminton_1794921134171.jpg"
+      ],
+      "condition": "Good",
+      "exchangeType": "Borrow",
+      "price": null,
+      "availability": "Borrowed",
+      "borrowingDuration": "3 Days",
+      "pickupLocation": "Sports Complex Entrance",
+      "createdAt": "2026-11-05T13:20:06.842Z",
+      "updatedAt": "2026-11-15T13:20:06.842Z"
+    },
+    {
+      "id": "itm_desk_lamp",
+      "ownerId": "usr_meera",
+      "title": "Architectural Matte Navy LED Study Lamp & Desk Organizer",
+      "category": "Hostel Essentials",
+      "description": "Adjustable arm warm-white LED study lamp with toggle switch and wooden desk caddy. Moving off-campus next month and looking to swap for a compact electric kettle or sell directly.",
+      "images": [
+        "/src/assets/images/item_hostel_lamp_1794921134896.jpg"
+      ],
+      "condition": "Like New",
+      "exchangeType": "Swap",
+      "price": null,
+      "availability": "Available",
+      "borrowingDuration": "",
+      "pickupLocation": "Hostel Block B Reception",
+      "createdAt": "2026-11-13T13:20:06.842Z",
+      "updatedAt": "2026-11-13T13:20:06.842Z"
+    },
+    {
+      "id": "itm_drafting_set",
+      "ownerId": "usr_meera",
+      "title": "Precision Engineering Drafting Compass, Scale Ruler & Fineliners",
+      "category": "Stationery",
+      "description": "Staedtler masterbow precision compass, aluminum triangular architect scale, set squares, and four refillable technical pens. Gently used for two studios.",
+      "images": [
+        "/src/assets/images/item_drafting_stationery_1794921135352.jpg"
+      ],
+      "condition": "Good",
+      "exchangeType": "Buy",
+      "price": 650,
+      "availability": "Available",
+      "borrowingDuration": "",
+      "pickupLocation": "Design Studio Courtyard",
+      "createdAt": "2026-11-14T13:20:06.842Z",
+      "updatedAt": "2026-11-14T13:20:06.842Z"
+    },
+    {
+      "id": "itm_free_notes",
+      "ownerId": "usr_ananya",
+      "title": "Data Structures & Algorithms Spiral Workbook + Revision Flashcards",
+      "category": "Books & Notes",
+      "description": "Free to any 1st or 2nd year student preparing for campus placements or semester exams. Clean grid notebook with annotated complexity charts and 80+ solved graph problems.",
+      "images": [
+        "/src/assets/images/item_textbooks_bundle_1794921132809.jpg"
+      ],
+      "condition": "Good",
+      "exchangeType": "Free Sharing",
+      "price": 0,
+      "availability": "Available",
+      "borrowingDuration": "",
+      "pickupLocation": "Main Canteen Patio",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "updatedAt": "2026-11-16T13:20:06.842Z"
+    },
+    {
+      "id": "itm_scientific_calc",
+      "ownerId": "usr_karthik",
+      "title": "Engineering Mechanics Reference & Scientific Drawing Pad",
+      "category": "Other Items",
+      "description": "Spare reference handbook and isometric grid pad for Mechanical & Civil engineering freshman coursework. Available to borrow for exam week.",
+      "images": [
+        "/src/assets/images/item_drafting_stationery_1794921135352.jpg"
+      ],
+      "condition": "Fair",
+      "exchangeType": "Borrow",
+      "price": null,
+      "availability": "Available",
+      "borrowingDuration": "14 Days",
+      "pickupLocation": "Mechanical Workshop Gate",
+      "createdAt": "2026-11-15T13:20:06.842Z",
+      "updatedAt": "2026-11-15T13:20:06.842Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_1",
+      "itemId": "itm_badminton_set",
+      "ownerId": "usr_karthik",
+      "requesterId": "usr_ananya",
+      "requestType": "Borrow",
+      "proposedDuration": "3 Days",
+      "swapOffer": "",
+      "message": "Hi Karthik! Could I borrow the rackets for the inter-department tournament practice this week?",
+      "status": "In Progress",
+      "createdAt": "2026-11-14T13:20:06.842Z",
+      "updatedAt": "2026-11-15T13:20:06.842Z"
+    },
+    {
+      "id": "req_2",
+      "itemId": "itm_os_books",
+      "ownerId": "usr_rohan",
+      "requesterId": "usr_ananya",
+      "requestType": "Borrow",
+      "proposedDuration": "1 Semester",
+      "swapOffer": "",
+      "message": "Taking OS this semester—would love to borrow the Tanenbaum edition until finals.",
+      "status": "Pending",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "updatedAt": "2026-11-16T13:20:06.842Z"
+    },
+    {
+      "id": "req_3",
+      "itemId": "itm_macbook_hub",
+      "ownerId": "usr_ananya",
+      "requesterId": "usr_meera",
+      "requestType": "Lend",
+      "proposedDuration": "4 Days",
+      "swapOffer": "",
+      "message": "Need an HDMI adapter for our Architecture jury presentation on Friday!",
+      "status": "Pending",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "updatedAt": "2026-11-16T13:20:06.842Z"
+    },
+    {
+      "id": "req_4",
+      "itemId": "itm_desk_lamp",
+      "ownerId": "usr_meera",
+      "requesterId": "usr_rohan",
+      "requestType": "Swap",
+      "proposedDuration": "",
+      "swapOffer": "Stainless steel 1.5L electric kettle (1 year old, spotless)",
+      "message": "Hey Meera, I have a clean Prestige electric kettle if you want to swap for the study lamp.",
+      "status": "Completed",
+      "createdAt": "2026-11-03T13:20:06.842Z",
+      "updatedAt": "2026-11-07T13:20:06.842Z"
+    }
+  ],
+  "borrowings": [
+    {
+      "id": "bor_1",
+      "requestId": "req_1",
+      "itemId": "itm_badminton_set",
+      "itemTitle": "Carbon-Fiber Badminton Rackets (Pair) + Shuttlecock Tube & Bag",
+      "itemImage": "/src/assets/images/item_sports_badminton_1794921134171.jpg",
+      "ownerId": "usr_karthik",
+      "ownerName": "Karthik Reddy",
+      "borrowerId": "usr_ananya",
+      "borrowerName": "Ananya Sharma",
+      "startDate": "2026-11-15",
+      "expectedReturnDate": "2026-11-18",
+      "actualReturnDate": null,
+      "status": "Active",
+      "ownerConfirmedReturn": false,
+      "borrowerConfirmedReturn": false,
+      "conditionLogs": [
+        {
+          "id": "cond_1",
+          "recordedByUserId": "usr_karthik",
+          "recordedByName": "Karthik Reddy",
+          "role": "Owner",
+          "stage": "Before Handover",
+          "condition": "Good",
+          "notes": "Both rackets intact, fresh white grip tape, 8 shuttlecocks inside tube.",
+          "photos": [
+            "/src/assets/images/item_sports_badminton_1794921134171.jpg"
+          ],
+          "createdAt": "2026-11-15T13:20:06.842Z"
+        },
+        {
+          "id": "cond_2",
+          "recordedByUserId": "usr_ananya",
+          "recordedByName": "Ananya Sharma",
+          "role": "Borrower",
+          "stage": "Before Handover",
+          "condition": "Good",
+          "notes": "Verified string tension and zipper on duffle bag at Sports Complex handover.",
+          "photos": [],
+          "createdAt": "2026-11-15T13:20:06.842Z"
+        }
+      ],
+      "createdAt": "2026-11-15T13:20:06.842Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_1",
+      "reporterId": "usr_rohan",
+      "againstUserId": "usr_karthik",
+      "itemId": "itm_arduino_kit",
+      "borrowingId": null,
+      "issueType": "Late Return",
+      "description": "Multimeter probes were returned two days past the agreed date during mid-semester exams without prior message.",
+      "evidencePhotos": [
+        "/src/assets/images/item_lab_equipment_1794921135375.jpg"
+      ],
+      "status": "Under Review",
+      "adminDecision": "Reviewing communication timestamps with both students; reminding both parties to update expected return dates in-app.",
+      "reviewedBy": "Dr. Priya Deshmukh",
+      "createdAt": "2026-11-13T13:20:06.842Z",
+      "updatedAt": "2026-11-15T13:20:06.842Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "threadId": "thread_usr_ananya_usr_karthik",
+      "itemId": "itm_badminton_set",
+      "itemTitle": "Carbon-Fiber Badminton Rackets (Pair)",
+      "senderId": "usr_ananya",
+      "senderName": "Ananya Sharma",
+      "recipientId": "usr_karthik",
+      "recipientName": "Karthik Reddy",
+      "body": "Thanks for lending the rackets! I can meet near the Sports Complex at 5:30 PM tomorrow to return them.",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "read": false
+    },
+    {
+      "id": "msg_2",
+      "threadId": "thread_usr_ananya_usr_karthik",
+      "itemId": "itm_badminton_set",
+      "itemTitle": "Carbon-Fiber Badminton Rackets (Pair)",
+      "senderId": "usr_karthik",
+      "senderName": "Karthik Reddy",
+      "recipientId": "usr_ananya",
+      "recipientName": "Ananya Sharma",
+      "body": "Sounds good Ananya! Just upload the return check note when you drop them off.",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "read": true
+    },
+    {
+      "id": "msg_3",
+      "threadId": "thread_usr_ananya_usr_meera",
+      "itemId": "itm_macbook_hub",
+      "itemTitle": "Aluminum USB-C Multiport Hub & Studio Wireless Headphones",
+      "senderId": "usr_meera",
+      "senderName": "Meera Nair",
+      "recipientId": "usr_ananya",
+      "recipientName": "Ananya Sharma",
+      "body": "Hi Ananya, is the USB-C hub compatible with M2 MacBooks for dual projector output?",
+      "createdAt": "2026-11-16T13:20:06.842Z",
+      "read": false
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act_1",
+      "actorId": "usr_ananya",
+      "actorName": "Ananya Sharma",
+      "action": "Published free sharing listing",
+      "targetType": "Listing",
+      "targetTitle": "Data Structures & Algorithms Spiral Workbook",
+      "createdAt": "2026-11-16T13:20:06.842Z"
+    },
+    {
+      "id": "act_2",
+      "actorId": "usr_karthik",
+      "actorName": "Karthik Reddy",
+      "action": "Handed over borrowed equipment",
+      "targetType": "Borrowing",
+      "targetTitle": "Carbon-Fiber Badminton Rackets (Pair)",
+      "createdAt": "2026-11-15T13:20:06.842Z"
+    },
+    {
+      "id": "act_3",
+      "actorId": "usr_admin",
+      "actorName": "Dr. Priya Deshmukh",
+      "action": "Moved report to Under Review",
+      "targetType": "Report",
+      "targetTitle": "Late Return — Embedded Systems Kit",
+      "createdAt": "2026-11-15T13:20:06.842Z"
+    }
+  ]
+}
